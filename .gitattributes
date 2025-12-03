@@ -1,0 +1,6 @@
+cat > .gitattributes <<'GAT'
+cron/2fa-cron text eol=lf
+GAT
+
+git add .gitattributes cron/2fa-cron scripts/log_2fa_cron.py
+git commit -m "Add cron file and cron logging script"
